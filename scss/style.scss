@@ -1,0 +1,116 @@
+@import'./base/variables.scss';
+@import'./base/luminocidad.scss';
+@import'./base/maps.scss';
+@import'./base/listas.scss';
+@import './componentes/main';
+
+
+header {
+    h1{
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+//nav
+
+nav{
+    .container-fluid{
+        background-color: #ff9100;
+        font-weight: bold;
+        color: black;
+    }
+    .nav-item{
+        font-weight: bold;
+    }
+}
+
+//footer
+
+footer{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+}
+
+//body
+
+body{
+    background-color: #b8860b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80%;
+    overflow: auto;
+    .container{
+        background-color: #ffff00;
+    } 
+    h2{
+        text-align: center;
+        line-height: 100px;
+       font-size: 35px;
+        padding: 0px;
+        text-align: center;
+        font-weight: bold;
+    }
+    h3{
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+    h4{
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+        
+    //Sesion
+    
+    .loginform{
+        display: flex;
+        justify-content: flex-start;
+        margin: 50px;
+        padding: 50px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .email{
+            font-weight: bold;
+        }
+        .contra{
+            font-weight: bold;
+        }
+    }
+
+    //Contacto
+    .formulario{
+        display: flex;
+        justify-items: flex-start;
+        margin: 50px;
+        padding: 50px;
+        flex-wrap: wrap;
+    }
+    .containerContactos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    //Producto
+    .parrafProd{
+        padding: 40px;
+        text-align: center;
+    }
+    .img1{
+        position: relative;
+        &:hover{transform: translate(20px, 0px)}
+    }
+    .img2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+        margin-right: 60px;
+        &:hover{transform: translate(20px, 0px)}
+    }
+}
