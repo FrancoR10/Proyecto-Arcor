@@ -1,0 +1,22 @@
+/* Error: Missing argument $color.
+ *   ,--> scss\style.scss
+ * 55|         @include tituloSec;
+ *   |         ^^^^^^^^^^^^^^^^^^ invocation
+ *   '
+ *   ,--> scss\base\mixin.scss
+ * 6 | @mixin tituloSec ($color, $negrita, $alineaTexto){
+ *   |        ========================================== declaration
+ *   '
+ *   scss\style.scss 55:9  tituloSec()
+ *   scss\style.scss 55:9  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Missing argument $color.\a   \250c \2500 \2500 > scss\\style.scss\a 55\2502          @include tituloSec;\d\a   \2502          ^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \250c \2500 \2500 > scss\\base\\mixin.scss\a 6 \2502  @mixin tituloSec ($color, $negrita, $alineaTexto){\d\a   \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   scss\\style.scss 55:9  tituloSec()\a   scss\\style.scss 55:9  root stylesheet";
+}

@@ -1,0 +1,11 @@
+$color: black;
+$negrita: bold;
+$alineaTexto: center;
+
+
+@mixin tituloSec ($color, $negrita, $alineaTexto){
+    color: $color;
+    font-weight: $negrita;
+    text-align: $alineaTexto;
+
+}
