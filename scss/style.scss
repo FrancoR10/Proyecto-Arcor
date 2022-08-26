@@ -1,0 +1,486 @@
+@import'./base/variables.scss';
+@import'./base/luminocidad.scss';
+@import'./base/maps.scss';
+@import'./base/listas.scss';
+@import'./base/extend';
+@import'./base/operadores.scss';
+@import'./base/mixin.scss';
+@import './componentes/main';
+
+//COMPUTADORA
+/*-----------------------COMPUTADORA-----------------------*/
+@media only screen and (min-width:0px) and (max-width:767) {
+    header {
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    nav {
+        .container-fluid {
+            background-color: #ff9100;
+            font-weight: bold;
+            color: black;
+        }
+
+        .nav-item {
+            font-weight: bold;
+        }
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    body {
+        background-color: #b8860b;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 80%;
+        overflow: auto;
+
+        .todo {
+            display: flex;
+            flex-wrap: wrap;
+            .container {
+                background-color: #ffff00;
+
+                .imagenes {
+                    .img2 {
+                        display: flex;
+                        flex-wrap: wrap;
+                        position: relative;
+                        width: 20px;
+                        height: 20px;
+                        margin-bottom: 20px;
+                        margin-right: 60px;
+
+                        &:hover {
+                            transform: translate(20px, 0px)
+                        }
+                    }
+                }
+            }
+
+            h2 {
+                text-align: center;
+                line-height: 100px;
+                font-size: 35px;
+                padding: 0px;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            h3 {
+                color: black;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            h4 {
+                color: black;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .loginform {
+                display: flex;
+                justify-content: flex-start;
+                margin: 50px;
+                padding: 50px;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .email {
+                    font-weight: bold;
+                }
+
+                .contra {
+                    font-weight: bold;
+                }
+            }
+
+            .formulario {
+                display: flex;
+                justify-items: flex-start;
+                margin: 50px;
+                padding: 50px;
+                flex-wrap: wrap;
+            }
+
+            .containerContactos {
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+            }
+
+            .parrafProd {
+                padding: 40px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+
+//TABLET
+/*TABLET*/
+@media only screen and (min-width:768px) and (max-width:1199) {
+
+    header {
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    nav {
+        .container-fluid {
+            background-color: #ff9100;
+            font-weight: bold;
+            color: black;
+        }
+
+        .nav-item {
+            font-weight: bold;
+        }
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    body {
+        background-color: #b8860b;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 80%;
+        overflow: auto;
+
+        .container {
+            background-color: #ffff00;
+
+            .imagenes {
+                .img2 {
+                    position: relative;
+                    width: 1000px;
+                    height: 1000px;
+                    margin-bottom: 20px;
+                    margin-right: 60px;
+
+                    &:hover {
+                        transform: translate(20px, 0px)
+                    }
+                }
+            }
+        }
+
+        h2 {
+            text-align: center;
+            line-height: 100px;
+            font-size: 35px;
+            padding: 0px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h3 {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h4 {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+
+
+        .loginform {
+            display: flex;
+            justify-content: flex-start;
+            margin: 50px;
+            padding: 50px;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .email {
+                font-weight: bold;
+            }
+
+            .contra {
+                font-weight: bold;
+            }
+        }
+
+        .formulario {
+            display: flex;
+            justify-items: flex-start;
+            margin: 50px;
+            padding: 50px;
+            flex-wrap: wrap;
+        }
+
+        .containerContactos {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .parrafProd {
+            padding: 40px;
+            text-align: center;
+        }
+    }
+}
+
+
+//TABLET2
+
+/*------------------TABLET2------------------------------*/
+
+
+@media only screen and (min-width:1200px) and (max-width:1399) {
+    header {
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    nav {
+        .container-fluid {
+            background-color: #ff9100;
+            font-weight: bold;
+            color: black;
+        }
+
+        .nav-item {
+            font-weight: bold;
+        }
+    }
+
+
+
+    footer {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    body {
+        background-color: #b8860b;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 80%;
+        overflow: auto;
+
+        .container {
+            background-color: #ffff00;
+
+            .imagenes {
+                .img2 {
+                    position: relative;
+                    width: 170px;
+                    height: 170px;
+                    margin-bottom: 20px;
+                    margin-right: 60px;
+
+                    &:hover {
+                        transform: translate(20px, 0px)
+                    }
+                }
+            }
+        }
+
+        h2 {
+            text-align: center;
+            line-height: 100px;
+            font-size: 35px;
+            padding: 0px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h3 {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h4 {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .loginform {
+            display: flex;
+            justify-content: flex-start;
+            margin: 50px;
+            padding: 50px;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .email {
+                font-weight: bold;
+            }
+
+            .contra {
+                font-weight: bold;
+            }
+        }
+
+        .formulario {
+            display: flex;
+            justify-items: flex-start;
+            margin: 50px;
+            padding: 50px;
+            flex-wrap: wrap;
+        }
+
+        .containerContactos {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+        }
+
+        .parrafProd {
+            padding: 40px;
+            text-align: center;
+        }
+
+    }
+}
+
+//CELULAR
+/*--------------------------------CELULAR----------------------------*/
+@media only screen and (min-width:1400) {
+
+    header {
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    nav {
+        .container-fluid {
+            background-color: #ff9100;
+            font-weight: bold;
+            color: black;
+        }
+
+        .nav-item {
+            font-weight: bold;
+        }
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    body {
+        background-color: #b8860b;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 50%;
+        overflow: auto;
+
+        .container {
+            background-color: #ffff00;
+
+            .imagenes {
+                .img2 {
+                    position: relative;
+                    width: 200px;
+                    height: 200px;
+                    margin-bottom: 20px;
+                    margin-right: 60px;
+
+                    &:hover {
+                        transform: translate(20px, 0px)
+                    }
+                }
+            }
+        }
+
+        h2 {
+            text-align: center;
+            line-height: 100px;
+            font-size: 35px;
+            padding: 0px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h3 {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h4 {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .loginform {
+            display: flex;
+            justify-content: flex-start;
+            margin: 50px;
+            padding: 50px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .email {
+            font-weight: bold;
+        }
+
+        .contra {
+            font-weight: bold;
+        }
+
+
+        .formulario {
+            display: flex;
+            justify-items: flex-start;
+            margin: 50px;
+            padding: 50px;
+            flex-wrap: wrap;
+        }
+
+        .containerContactos {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .parrafProd {
+            padding: 40px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,6 @@
+$color-base: #ff9100;
+$color-secundario: #ffff00;
+
+.container-fluid{
+color: mix($color-base, $color-secundario, $weight: 0.5);
+}

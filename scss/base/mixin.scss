@@ -1,0 +1,17 @@
+$color: black;
+$negrita: bold;
+$alineaTexto: center;
+
+
+@mixin tituloSec ($color, $negrita, $alineaTexto){
+    color: $color;
+    font-weight: $negrita;
+    text-align: $alineaTexto;
+
+}
+
+@mixin media-up($breakpoint) {
+    @media screen and (min-width: map-get($breakpoint, breakpoint)) {
+        @content;
+    }    
+}
