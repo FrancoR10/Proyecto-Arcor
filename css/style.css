@@ -285,6 +285,7 @@ body .container {
     flex-wrap: wrap;
   }
   body .containerContactos {
+
     display: flex;
     flex-direction: column;
     margin-top: 20px;
